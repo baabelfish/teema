@@ -12,7 +12,7 @@ hi    trailingWhitespace          guifg=none              guibg=#301010
 
 hi    Block                       guifg=#79AE4E           guibg=none    gui=bold
 hi    Boolean                     guifg=#b1c949           guibg=none    gui=bold
-hi    Character                   guifg=#999999           guibg=none    gui=none
+hi    Character                   guifg=#c9a969           guibg=none    gui=none
 hi    ColorColumn                 guibg=#101010
 hi    Comment                     guifg=#505060           guibg=none    gui=none
 hi    Conditional                 guifg=#9550c3           gui=bold
@@ -32,7 +32,7 @@ hi    Float                       guifg=#8f6f87           gui=none
 hi    FoldColumn                  guifg=none              guibg=none    gui=none
 hi    Folded                      guifg=none              guibg=#222230 gui=none
 hi    Function                    guifg=#77b777           gui=none
-hi    Identifier                  guifg=#efefef           guibg=none    gui=none
+hi    Identifier                  guifg=#e9e9e9           guibg=none    gui=none
 hi    Include                     guifg=#777797           guibg=none    gui=none
 hi    Keyword                     guifg=#907878           guibg=none    gui=none
 hi    Label                       guifg=#8980c0           guibg=none    gui=none
@@ -172,5 +172,19 @@ hi    javascript_arrays           guifg=#C99EFF           guibg=none    gui=none
 hi    javascript_chaining         guifg=#D9AEFF           guibg=none    gui=none
 hi    javascriptBModelAttrs       guifg=#777777           guibg=none    gui=none
 hi    javascriptBCollectionAttrs  guifg=#779777           guibg=none    gui=none
+
+" Vim
+hi    link vimFunction Function
+hi    link vimUserFunc Function
+hi    link vimMapMod Typedef
+hi    link vimIsCommand Macro
+hi    link vimOption Identifier
+hi    link vimNotation Identifier
+hi    link vimMapModKey Identifier
+hi    link vimMapLhs String
+hi    link vimMapRhs Number
+hi    link vimSetEqual Float
+hi    link vimCommand Structure
+hi    link vimSet Float
 
 hi    link                        multiple_cursors_visual Visual
