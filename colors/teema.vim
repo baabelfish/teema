@@ -31,13 +31,13 @@ hi    Exception                   guifg=#f9a989           guibg=none    gui=bold
 hi    Float                       guifg=#8f6f87           gui=none
 hi    FoldColumn                  guifg=none              guibg=none    gui=none
 hi    Folded                      guifg=none              guibg=#222230 gui=none
-hi    Function                    guifg=#77b777           gui=none
+hi    Function                    guifg=#779777           gui=none
 hi    Identifier                  guifg=#e9e9e9           guibg=none    gui=none
 hi    Include                     guifg=#777797           guibg=none    gui=none
 hi    Keyword                     guifg=#907878           guibg=none    gui=none
 hi    Label                       guifg=#8980c0           guibg=none    gui=none
 hi    LineNr                      guifg=#444944           guibg=none    gui=none
-hi    Macro                       guifg=#99ff99           guibg=none    gui=bold
+hi    Macro                       guifg=#d26937           guibg=none    gui=bold
 hi    MatchParen                  guifg=#ffacbc           guibg=none    gui=italic,bold
 hi    ModeMsg                     guifg=#444444           guibg=none    gui=none
 hi    NonText                     guifg=#101010           guibg=none    gui=none
@@ -48,7 +48,7 @@ hi    PMenu                       guifg=#dadada           guibg=#262626 gui=none
 hi    PMenuSbar                   guifg=none              guibg=#3a3a3a gui=none
 hi    PMenuSel                    guifg=#afff00           guibg=#121212 gui=none
 hi    PMenuThumb                  guifg=#afff00           guibg=#afff00 gui=none
-hi    PreCondit                   guifg=#999999           guibg=none    gui=none
+hi    PreCondit                   guifg=#e06060           guibg=none    gui=bold
 hi    PreProc                     guifg=#999999           guibg=none    gui=none
 hi    Question                    guifg=#889888           guibg=none    gui=none
 hi    Repeat                      guifg=#b55093           guibg=none    gui=bold
@@ -64,14 +64,14 @@ hi    StatusLine                  guifg=#555555           guibg=#101010 gui=none
 hi    StatusLineNC                guifg=#555555           guibg=#101010 gui=none
 hi    StorageClass                guifg=#ec8c4c           guibg=none    gui=bold
 hi    String                      guifg=#c09050           gui=none
-hi    Structure                   guifg=#dc7c3c           guibg=none    gui=none
+hi    Structure                   guifg=#dc7c3c           guibg=none    gui=bold
 hi    TabLine                     guifg=#20e020           guibg=#151515 gui=none
 hi    TabLineFill                 guifg=#999999           guibg=#151515 gui=none
 hi    TabLineSel                  guifg=#75ff75           guibg=#202020 gui=bold
 hi    Tag                         guifg=#999999           guibg=none    gui=none
 hi    Title                       guifg=#808080           guibg=none    gui=none
 hi    Todo                        guifg=#525987           guibg=none    gui=italic
-hi    Type                        guifg=#d26937           gui=bold
+hi    Type                        guifg=#d26937           gui=none
 hi    Typedef                     guifg=#d26937           gui=none
 hi    Underlined                  gui=underline
 hi    VertSplit                   guifg=#101010           guibg=#101010
@@ -174,25 +174,25 @@ hi    javascriptBModelAttrs       guifg=#777777           guibg=none    gui=none
 hi    javascriptBCollectionAttrs  guifg=#779777           guibg=none    gui=none
 
 " Vim
-hi    link vimFunction Function
-hi    link vimUserFunc Function
-hi    link vimMapMod Typedef
-hi    link vimIsCommand Macro
-hi    link vimOption Identifier
-hi    link vimNotation Identifier
-hi    link vimMapModKey Identifier
-hi    link vimMapLhs String
-hi    link vimMapRhs Number
-hi    link vimSetEqual Float
-hi    link vimCommand Structure
-hi    link vimSet Float
-hi    link vimHighlight Float
+hi    link                        vimFunction             Function
+hi    link                        vimUserFunc             Function
+hi    link                        vimMapMod               Typedef
+hi    link                        vimIsCommand            Macro
+hi    link                        vimOption               Identifier
+hi    link                        vimNotation             Identifier
+hi    link                        vimMapModKey            Identifier
+hi    link                        vimMapLhs               String
+hi    link                        vimMapRhs               Number
+hi    link                        vimSetEqual             Float
+hi    link                        vimCommand              Structure
+hi    link                        vimSet                  Float
+hi    link                        vimHighlight            Float
 
 " Git
-hi    link gitcommitSelectedFile String
-hi    link gitcommitUntrackedFile Comment
-hi    link gitcommitHeader Repeat
-hi    link gitcommitBranch Macro
-hi    link gitcommitSummary Function
+hi    link                        gitcommitSelectedFile   String
+hi    link                        gitcommitUntrackedFile  Comment
+hi    link                        gitcommitHeader         Repeat
+hi    link                        gitcommitBranch         Macro
+hi    link                        gitcommitSummary        Function
 
 hi    link                        multiple_cursors_visual Visual
