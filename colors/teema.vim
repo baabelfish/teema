@@ -186,5 +186,13 @@ hi    link vimMapRhs Number
 hi    link vimSetEqual Float
 hi    link vimCommand Structure
 hi    link vimSet Float
+hi    link vimHighlight Float
+
+" Git
+hi    link gitcommitSelectedFile String
+hi    link gitcommitUntrackedFile Comment
+hi    link gitcommitHeader Repeat
+hi    link gitcommitBranch Macro
+hi    link gitcommitSummary Function
 
 hi    link                        multiple_cursors_visual Visual
