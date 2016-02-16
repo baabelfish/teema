@@ -41,7 +41,7 @@ hi    Macro                       guifg=#d26937           guibg=none    gui=bold
 hi    MatchParen                  guifg=#ffacbc           guibg=none    gui=italic,bold
 hi    ModeMsg                     guifg=#444444           guibg=none    gui=none
 hi    NonText                     guifg=#101010           guibg=none    gui=none
-hi    Normal                      guifg=#bcbcac           guibg=#101010
+hi    Normal                      guifg=#d0d0d0           guibg=#101010
 hi    Number                      guifg=#af5f87           gui=none
 hi    Operator                    guifg=#666666           gui=none
 hi    PMenu                       guifg=#dadada           guibg=#262626 gui=none
@@ -76,7 +76,7 @@ hi    Typedef                     guifg=#d26937           gui=none
 hi    Underlined                  gui=underline
 hi    VertSplit                   guifg=#101010           guibg=#101010
 hi    Visual                      guifg=none              guibg=#222020 gui=none
-hi    WildMenu                    guifg=#28c828           guibg=#101010 gui=bold
+hi    WildMenu                    guifg=#58d858           guibg=#101010 gui=bold
 
 hi    InterestingWord1            guifg=none              guibg=#1a301b
 hi    InterestingWord2            guifg=none              guibg=#421314
@@ -119,7 +119,7 @@ hi    StartifyHeader              guifg=#99a9c9           gui=bold,italic
 hi    StartifyNumber              guifg=#5599dd
 hi    StartifyPath                guifg=#8b8bab
 hi    StartifySlash               guifg=#444444
-hi    StartifyFile                guifg=#cccccc           gui=bold
+hi    StartifyFile                guifg=#cccccc           gui=none
 hi    SyntasticErrorSign          guifg=#ff4444           guibg=none
 hi    SyntasticInfoSign           guifg=#e0e0e0           guibg=none
 hi    SyntasticMsgSign            guifg=#cbffff           guibg=none
