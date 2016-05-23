@@ -107,7 +107,7 @@ hi CtrlPUndoSv                 guifg=#FFFFFF guibg=none
 hi CtrlPUndoT                  guifg=#FFFFFF guibg=none
 hi CtrlPqfLineCol              guifg=#FFFFFF guibg=none
 hi EasyMotionTarget            guifg=#999999 guibg=none
-hi ExchangeRegion              guifg=none    guibg=#262424 gui=none
+hi ExchangeRegion              guifg=none    guibg=#666424 gui=none
 hi SignColumn                  guifg=none    guibg=none    gui=none
 hi SignifyLineAdd              guifg=none    guibg=none    gui=bold
 hi SignifyLineChange           guifg=none    guibg=none    gui=bold
