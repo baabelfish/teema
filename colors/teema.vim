@@ -90,61 +90,62 @@ hi DiffChange                  guifg=none              guibg=#252513 gui=none
 hi DiffDelete                  guifg=none              guibg=#663030 gui=none
 hi DiffText                    guifg=none              guibg=        gui=bold
 
-hi CtrlPBookmark               guifg=#FFFFFF           guibg=none
-hi CtrlPBufName                guifg=#FFFFFF           guibg=none
-hi CtrlPLinePre                guifg=none              guibg=none
-hi CtrlPMatch                  guifg=#BAFF00           guibg=none
-hi CtrlPNoEntries              guifg=#FF8B00           guibg=none
-hi CtrlPPrtBase                guifg=#A8A8A8           guibg=none
-hi CtrlPPrtCursor              guifg=none              guibg=none
-hi CtrlPPrtText                guifg=#C8C8C8           guibg=none
-hi CtrlPTabExtra               guifg=#FFFFFF           guibg=none
-hi CtrlPTagKind                guifg=#FFFFFF           guibg=none
-hi CtrlPUndoBr                 guifg=#FFFFFF           guibg=none
-hi CtrlPUndoNr                 guifg=#FFFFFF           guibg=none
-hi CtrlPUndoPo                 guifg=#FFFFFF           guibg=none
-hi CtrlPUndoSv                 guifg=#FFFFFF           guibg=none
-hi CtrlPUndoT                  guifg=#FFFFFF           guibg=none
-hi CtrlPqfLineCol              guifg=#FFFFFF           guibg=none
-hi EasyMotionTarget            guifg=#999999           guibg=none
-hi SignColumn                  guifg=none              guibg=none    gui=none
-hi SignifyLineAdd              guifg=none              guibg=none    gui=bold
-hi SignifyLineChange           guifg=none              guibg=none    gui=bold
-hi SignifyLineDelete           guifg=none              guibg=none    gui=bold
-hi SignifySignAdd              guifg=#36bF2A           guibg=none    gui=bold
-hi SignifySignChange           guifg=#bFb92A           guibg=none    gui=bold
-hi SignifySignDelete           guifg=#bB0F0F           guibg=none    gui=bold
+hi CtrlPBookmark               guifg=#FFFFFF guibg=none
+hi CtrlPBufName                guifg=#FFFFFF guibg=none
+hi CtrlPLinePre                guifg=none    guibg=none
+hi CtrlPMatch                  guifg=#BAFF00 guibg=none
+hi CtrlPNoEntries              guifg=#FF8B00 guibg=none
+hi CtrlPPrtBase                guifg=#A8A8A8 guibg=none
+hi CtrlPPrtCursor              guifg=none    guibg=none
+hi CtrlPPrtText                guifg=#C8C8C8 guibg=none
+hi CtrlPTabExtra               guifg=#FFFFFF guibg=none
+hi CtrlPTagKind                guifg=#FFFFFF guibg=none
+hi CtrlPUndoBr                 guifg=#FFFFFF guibg=none
+hi CtrlPUndoNr                 guifg=#FFFFFF guibg=none
+hi CtrlPUndoPo                 guifg=#FFFFFF guibg=none
+hi CtrlPUndoSv                 guifg=#FFFFFF guibg=none
+hi CtrlPUndoT                  guifg=#FFFFFF guibg=none
+hi CtrlPqfLineCol              guifg=#FFFFFF guibg=none
+hi EasyMotionTarget            guifg=#999999 guibg=none
+hi ExchangeRegion              guifg=none    guibg=#262424 gui=none
+hi SignColumn                  guifg=none    guibg=none    gui=none
+hi SignifyLineAdd              guifg=none    guibg=none    gui=bold
+hi SignifyLineChange           guifg=none    guibg=none    gui=bold
+hi SignifyLineDelete           guifg=none    guibg=none    gui=bold
+hi SignifySignAdd              guifg=#36bF2A guibg=none    gui=bold
+hi SignifySignChange           guifg=#bFb92A guibg=none    gui=bold
+hi SignifySignDelete           guifg=#bB0F0F guibg=none    gui=bold
 hi StartifyBracket             guifg=#333333
-hi StartifyHeader              guifg=#99a9c9           gui=bold,italic
+hi StartifyHeader              guifg=#99a9c9 gui=bold,italic
 hi StartifyNumber              guifg=#5599dd
 hi StartifyPath                guifg=#8b8bab
 hi StartifySlash               guifg=#444444
-hi StartifyFile                guifg=#cccccc           gui=none
-hi SyntasticErrorSign          guifg=#ff4444           guibg=none
-hi SyntasticInfoSign           guifg=#e0e0e0           guibg=none
-hi SyntasticMsgSign            guifg=#cbffff           guibg=none
-hi SyntasticWarningSign        guifg=#d7ff5f           guibg=none
-hi cformat                     guifg=#999999           guibg=none    gui=none
-hi cspecialcharacter           guifg=#999999           guibg=none    gui=none
-hi cspecialcharacter           guifg=#999999           guibg=none    gui=none
-hi cursorim                    guifg=#999999           guibg=none    gui=none
-hi doxygenbrief                guifg=#999999           guibg=none    gui=none
-hi doxygencomment              guifg=#999999           guibg=none    gui=none
-hi doxygenparam                guifg=#999999           guibg=none    gui=none
-hi doxygenprev                 guifg=#999999           guibg=none    gui=none
-hi doxygensmallspecial         guifg=#999999           guibg=none    gui=none
-hi doxygenspecial              guifg=#999999           guibg=none    gui=none
-hi doxygenspecialmultilinedesc guifg=#999999           guibg=none    gui=none
-hi doxygenspecialonelinedesc   guifg=#999999           guibg=none    gui=none
-hi lcursor                     guifg=#999999           guibg=none    gui=none
-hi mbechanged                  guifg=#999999           guibg=none    gui=none
-hi mbenormal                   guifg=#999999           guibg=none    gui=none
-hi mbevisiblechanged           guifg=#999999           guibg=none    gui=none
-hi mbevisiblenormal            guifg=#999999           guibg=none    gui=none
-hi multiple_cursors_cursor     guifg=#999999           guibg=none
-hi perlspecialmatch            guifg=#999999           guibg=none    gui=none
-hi perlspecialstring           guifg=#999999           guibg=none    gui=none
-hi taglisttagname              guifg=#999999           guibg=none    gui=none
+hi StartifyFile                guifg=#cccccc gui=none
+hi SyntasticErrorSign          guifg=#ff4444 guibg=none
+hi SyntasticInfoSign           guifg=#e0e0e0 guibg=none
+hi SyntasticMsgSign            guifg=#cbffff guibg=none
+hi SyntasticWarningSign        guifg=#d7ff5f guibg=none
+hi cformat                     guifg=#999999 guibg=none    gui=none
+hi cspecialcharacter           guifg=#999999 guibg=none    gui=none
+hi cspecialcharacter           guifg=#999999 guibg=none    gui=none
+hi cursorim                    guifg=#999999 guibg=none    gui=none
+hi doxygenbrief                guifg=#999999 guibg=none    gui=none
+hi doxygencomment              guifg=#999999 guibg=none    gui=none
+hi doxygenparam                guifg=#999999 guibg=none    gui=none
+hi doxygenprev                 guifg=#999999 guibg=none    gui=none
+hi doxygensmallspecial         guifg=#999999 guibg=none    gui=none
+hi doxygenspecial              guifg=#999999 guibg=none    gui=none
+hi doxygenspecialmultilinedesc guifg=#999999 guibg=none    gui=none
+hi doxygenspecialonelinedesc   guifg=#999999 guibg=none    gui=none
+hi lcursor                     guifg=#999999 guibg=none    gui=none
+hi mbechanged                  guifg=#999999 guibg=none    gui=none
+hi mbenormal                   guifg=#999999 guibg=none    gui=none
+hi mbevisiblechanged           guifg=#999999 guibg=none    gui=none
+hi mbevisiblenormal            guifg=#999999 guibg=none    gui=none
+hi multiple_cursors_cursor     guifg=#999999 guibg=none
+hi perlspecialmatch            guifg=#999999 guibg=none    gui=none
+hi perlspecialstring           guifg=#999999 guibg=none    gui=none
+hi taglisttagname              guifg=#999999 guibg=none    gui=none
 
 " Nim
 hi nimOP0                   guifg=#555555           gui=none
