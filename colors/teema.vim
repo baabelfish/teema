@@ -112,9 +112,9 @@ hi SignColumn                  guifg=none    guibg=none    gui=none
 hi SignifyLineAdd              guifg=none    guibg=none    gui=bold
 hi SignifyLineChange           guifg=none    guibg=none    gui=bold
 hi SignifyLineDelete           guifg=none    guibg=none    gui=bold
-hi SignifySignAdd              guifg=#36bF2A guibg=none    gui=bold
-hi SignifySignChange           guifg=#bFb92A guibg=none    gui=bold
-hi SignifySignDelete           guifg=#bB0F0F guibg=none    gui=bold
+hi SignifySignAdd              guifg=#36bF2A guibg=none    gui=none
+hi SignifySignChange           guifg=#bFb92A guibg=none    gui=none
+hi SignifySignDelete           guifg=#a85600 guibg=none    gui=none
 hi StartifyBracket             guifg=#333333
 hi StartifyHeader              guifg=#99a9c9 gui=bold,italic
 hi StartifyNumber              guifg=#5599dd
