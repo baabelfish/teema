@@ -60,8 +60,8 @@ hi    SpellCap                    guifg=#999999           guibg=none    gui=none
 hi    SpellLocal                  guifg=#999999           guibg=none    gui=none
 hi    SpellRare                   guifg=#999999           guibg=none    gui=bold
 hi    Statement                   guifg=#C16FE8           gui=bold
-hi    StatusLine                  guifg=#555555           guibg=#151515 gui=none
-hi    StatusLineNC                guifg=#555555           guibg=#151515 gui=none
+hi    StatusLine                  guifg=#555555           guibg=#242321 gui=none
+hi    StatusLineNC                guifg=#555555           guibg=#242321 gui=none
 hi    StorageClass                guifg=#ec8c4c           guibg=none    gui=bold
 hi    String                      guifg=#c09050           gui=none
 hi    Structure                   guifg=#dc7c3c           guibg=none    gui=bold
