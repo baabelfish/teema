@@ -125,6 +125,10 @@ hi SyntasticErrorSign          guifg=#ff4444 guibg=none
 hi SyntasticInfoSign           guifg=#e0e0e0 guibg=none
 hi SyntasticMsgSign            guifg=#cbffff guibg=none
 hi SyntasticWarningSign        guifg=#d7ff5f guibg=none
+hi ALEError                    guifg=none guibg=none    gui=underline
+hi ALEWarning                  guifg=none guibg=none    gui=underline
+hi ALEErrorSign                guifg=#ff4444 guibg=none    gui=bold
+hi ALEWarningSign              guifg=#eaea59 guibg=none
 hi cformat                     guifg=#999999 guibg=none    gui=none
 hi cspecialcharacter           guifg=#999999 guibg=none    gui=none
 hi cspecialcharacter           guifg=#999999 guibg=none    gui=none
