@@ -86,9 +86,9 @@ hi    InterestingWord5            guifg=none              guibg=#203711
 hi    InterestingWord6            guifg=none              guibg=#102731
 
 hi DiffAdd                     guifg=none              guibg=#2c4629 gui=none
-hi DiffChange                  guifg=none              guibg=#252513 gui=none
+hi DiffChange                  guifg=none              guibg=none    gui=none
 hi DiffDelete                  guifg=none              guibg=#663030 gui=none
-hi DiffText                    guifg=none              guibg=        gui=bold
+hi DiffText                    guifg=none              guibg=none    gui=none
 
 hi CtrlPBookmark               guifg=#FFFFFF guibg=none
 hi CtrlPBufName                guifg=#FFFFFF guibg=none
@@ -125,8 +125,10 @@ hi SyntasticErrorSign          guifg=#ff4444 guibg=none
 hi SyntasticInfoSign           guifg=#e0e0e0 guibg=none
 hi SyntasticMsgSign            guifg=#cbffff guibg=none
 hi SyntasticWarningSign        guifg=#d7ff5f guibg=none
-hi ALEError                    guifg=none guibg=none    gui=underline
-hi ALEWarning                  guifg=none guibg=none    gui=underline
+" hi ALEError                    guifg=none guibg=none    gui=underline
+" hi ALEWarning                  guifg=none guibg=none    gui=underline
+hi ALEError                    guifg=none guibg=#201010    gui=bold
+hi ALEWarning                  guifg=none guibg=#2d290f    gui=none
 hi ALEErrorSign                guifg=#ff4444 guibg=none    gui=bold
 hi ALEWarningSign              guifg=#eaea59 guibg=none
 hi cformat                     guifg=#999999 guibg=none    gui=none
